@@ -1,0 +1,17 @@
+.intro{
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    padding: 70px 120px;
+}
+.hi{
+    font-size: 50px;
+    
+}
+.swe{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.subtext{
+    padding-top: 20px;
+}
