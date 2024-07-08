@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/Personal_Website.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $.get("Sidebar.html", function(data){
+            $("#sidenav").replaceWith(data)
+        });
+    </script>
     <title>Personal Website</title>
 </head>
 <body>
+    <div id="sidenav">
+
+    </div>
 
     <div>
     <h1>Hi, I'm Melyn Atieno Were</h1>
