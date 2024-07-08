@@ -1,7 +1,22 @@
+
 body{
-    text-decoration: none;
-    list-style: none;
+    text-align: left;
 }
-.icon{
-    width: 30px;
+.contact-container{
+    margin: auto;
+    width: 30%;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(4, 4, 134);
+    font-weight: bold;
+     
+}
+.contact {
+    font-size: 20px;
+    padding: 10px;
+}
+.contact span{
+    display: inline-block;
 }
