@@ -8,6 +8,8 @@
 .sidebar-container .sidebar{
     background-color: #C3C1C1;
     position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
     top: 0;
     left: 0;
     width: 225px;

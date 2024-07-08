@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/Contact.css">
     <script src="https://kit.fontawesome.com/924a3309fa.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $.get("Sidebar.html", function(data){
+            $("#sidenav").replaceWith(data)
+        });
+    </script>
     <title>Contact</title>
 </head>
 <body>
+    <div id="sidenav">
+
+    </div>
     <div class="contact-container">
         <div class="contact">
             <span class="icon">
@@ -26,7 +35,7 @@
             </span>
             <span class="item">
             <p>LinkedIn</p>
-            <a href="https://www.linkedin.com/in/melyn-atieno/">
+            <a href="https://www.linkedin.com/in/melyn-atieno/" target="_blank">
                 <p>melyn-atieno</p>
             </a>
         </span>
@@ -38,7 +47,7 @@
             </span>
             <span class="item">
             <p>GitHub</p>
-            <a href="https://github.com/MelynAtieno">
+            <a href="https://github.com/MelynAtieno" target="_blank">
                 <p>MelynAtieno</p>
             </a>
             </span>
