@@ -13,4 +13,16 @@
     width: 225px;
     height: 100%;
     padding: 20px 0;
+    
+}
+.sidebar-container .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    font-weight: bolder;
+}
+.sidebar-container .sidebar ul li a:focus{
+    background-color: rgb(240, 245, 245);
 }
