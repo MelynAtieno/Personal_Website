@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(212, 199, 203);
+}
 .intro{
     text-align: left;
     margin: auto;
@@ -12,6 +15,7 @@
     font-size: 30px;
     padding-top: 10px;
 }
+
 
 
 .contact-container{
