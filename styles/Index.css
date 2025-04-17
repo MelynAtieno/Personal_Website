@@ -12,9 +12,7 @@
     font-size: 30px;
     padding-top: 10px;
 }
-.subtext{
-    padding-top: 20px;
-}
+
 
 .contact-container{
     margin: auto;
@@ -31,11 +29,9 @@
 .contact {
     font-size: 20px;
     padding: 30px;
-    float: left;
-    width: 50%;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
 }
-.contact-container::after{
-    content: "";
-  display: table;
-  clear: both;
-}
+
+
